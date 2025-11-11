@@ -1,14 +1,14 @@
 # EXP 1 A : COMPUTATION OF DFT USING DIRECT AND FFT
 
-# AIM: 
+## AIM: 
 To Obtain DFT and FFT of a given sequence in SCILAB. 
 
-# APPARATUS REQUIRED: 
+## APPARATUS REQUIRED: 
 PC installed with SCILAB. 
 
-# PROGRAM: 
-# DFT:
-
+## PROGRAM: 
+## DFT:
+```
 clc; 
 clear; 
 xn=[1 2 3 4 4 3 2 1]; 
@@ -41,9 +41,9 @@ plot2d3(K1,angle);
 xlabel('frequency(Hz)'); 
 ylabel('Phase'); 
 title('Phase spectrum');
-
-# FFT:
-
+```
+## FFT:
+```
 clear; 
 clc; 
 close; 
@@ -79,17 +79,17 @@ plot2d3(n2,y)
 xlabel('Time n'); 
 ylabel('Amplitude'); 
 title('Inverse FFT OF X(K)');
+```
 
 
 
-
-# OUTPUT: 
-# DFT:
+## OUTPUT: 
+## DFT:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/045b071f-98ef-411a-a0de-c11535126be2" />
 
-# FFT:
+## FFT:
  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/eb1118da-8e75-4f52-84fd-95fe02de75e6" />
 
 
-# RESULT: 
+## RESULT: 
 The DFT of the given sequence using Direct method and FFT method are obtained.
